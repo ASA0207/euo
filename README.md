@@ -1,19 +1,17 @@
-# 은오 (EUNO) Guild Official Page
-
-은오 길드 공식 GitHub Pages용 정적 웹사이트입니다.
+# EUNO 2.0 — 은오 길드 공식 GitHub Pages
 
 ## 배포
-1. 이 폴더의 모든 파일을 GitHub 저장소 루트에 업로드합니다.
-2. GitHub 저장소 → Settings → Pages로 이동합니다.
-3. Deploy from a branch → `main` / `/ (root)`를 선택하고 저장합니다.
-4. 생성된 GitHub Pages 주소로 접속합니다.
+1. ZIP 압축을 풉니다.
+2. 저장소 루트에 `index.html`과 `assets` 폴더를 업로드합니다.
+3. GitHub → Settings → Pages → Deploy from a branch
+4. Branch: `main`, Folder: `/(root)` → Save
 
-## 구성
-- `index.html` : 전체 페이지
-- `assets/style.css` : 디자인 / 반응형
-- `assets/main.js` : 참여코드 복사 / 스크롤 애니메이션
-
-## 길드 정보
-- 오픈채팅: https://open.kakao.com/o/gD4M3dti
-- 참여코드: 0326
-- 문의: 김유우, 로열핑, 탑승구, 출생신고
+## 포함 기능
+- 프리미엄 다크/샴페인 골드 EUNO 전용 디자인
+- Canvas 별빛 동적 배경
+- 반응형 모바일 내비게이션
+- 스크롤 등장 애니메이션
+- 7개 길드 규칙
+- 경고 2회 / 5일 미접속 핵심 규정 강조
+- 오픈채팅 바로가기 및 참여코드 0326 복사
+- 운영진 4명 전용 섹션
