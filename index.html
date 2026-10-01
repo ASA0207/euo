@@ -17,4 +17,13 @@
 <section id='contact' class='section contact'><div class='sectionHead reveal'><span>03 / CONTACT</span><h2>은오 <em>운영진</em></h2><p>문의는 아래 운영진에게 개인 DM 또는 인게임으로 전달해주세요.</p></div><div class='people'>
 <div class='person reveal'><span>01</span><b>김유우</b><small>EUNO STAFF</small></div><div class='person reveal'><span>02</span><b>로열핑</b><small>EUNO STAFF</small></div><div class='person reveal'><span>03</span><b>탑승구</b><small>EUNO STAFF</small></div><div class='person reveal'><span>04</span><b>출생신고</b><small>EUNO STAFF</small></div></div>
 <div class='cta reveal'><div><small>OPEN CHAT</small><h3>은오와 더 가까이</h3><p>참여는 선택입니다. 필요할 때 편하게 찾아주세요.</p></div><a href='https://open.kakao.com/o/gD4M3dti' target='_blank' rel='noopener'>OPEN KAKAO ↗</a></div></section>
-</main><footer><div class='footBrand'><span class='sigil'>E</span><div><b>EUNO</b><small>은오 길드</small></div></div><p>Respect · Harmony · Together</p><span>OFFICIAL GUILD GUIDE</span></footer><div id='toast'>참여코드 0326을 복사했습니다.</div><script src='assets/main.js'></script></body></html>
+</main><footer><div class='footBrand'><span class='sigil'>E</span><div><b>EUNO</b><small>은오 길드</small></div></div><p>Respect · Harmony · Together</p><span>OFFICIAL GUILD GUIDE</span></footer><div id='toast'>참여코드 0326을 복사했습니다.</div>
+<audio id='eunoBgm' src='assets/audio/euno-memory-reboot.mp3' preload='auto' loop></audio>
+<div id='bgmGate' class='bgmGate' hidden><div class='gateCard'><span class='gateEyebrow'>EUNO · GOLDEN NIGHT</span><div class='gateSigil'>E</div><h2>음악과 함께<br>은오에 입장할까요?</h2><p>Memory Reboot · VØJ & Narvent</p><div class='gateActions'><button id='gatePlay'>음악과 함께 입장</button><button id='gateSilent'>조용히 입장</button></div></div></div>
+<div class='musicPlayer' id='musicPlayer'>
+  <button class='musicMain' id='musicToggle' aria-label='재생/일시정지'><span id='musicIcon'>▶</span></button>
+  <div class='musicInfo'><div class='musicTop'><span>NOW PLAYING</span><b id='musicState'>PAUSED</b></div><strong>Memory Reboot</strong><small>VØJ &amp; Narvent · EUNO THEME</small><div class='musicProgress' id='musicProgress'><i id='musicProgressFill'></i></div></div>
+  <button class='musicMute' id='musicMute' aria-label='음소거'>♫</button><input id='musicVolume' class='musicVolume' type='range' min='0' max='1' step='0.01' value='0.24' aria-label='볼륨'>
+  <div class='eq' id='musicEq'><i></i><i></i><i></i><i></i></div>
+</div>
+<script src='assets/main.js'></script></body></html>

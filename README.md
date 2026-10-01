@@ -15,3 +15,11 @@
 - 경고 2회 / 5일 미접속 핵심 규정 강조
 - 오픈채팅 바로가기 및 참여코드 0326 복사
 - 운영진 4명 전용 섹션
+
+
+## BGM
+- Track: VØJ & Narvent — Memory Reboot
+- Local file: `assets/audio/euno-memory-reboot.mp3`
+- Default volume: 24%
+- Autoplay is attempted on load. If the browser blocks audible autoplay, the EUNO entrance overlay lets the visitor start music with one click.
+- Includes play/pause, mute, volume, seek/progress, loop, equalizer animation, and saved volume/mute preferences.
